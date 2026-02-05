@@ -1,0 +1,11 @@
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\bin\Debug\PhanMemBaoBi.exe.config
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\bin\Debug\PhanMemBaoBi.exe
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\bin\Debug\PhanMemBaoBi.pdb
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.csproj.AssemblyReference.cache
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.FormDashboard.resources
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.Properties.Resources.resources
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.csproj.GenerateResource.cache
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.csproj.CoreCompileInputs.cache
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.exe
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.pdb
+C:\Users\Quy\Desktop\nhom5\PhanMemBaoBi\PhanMemBaoBi\obj\Debug\PhanMemBaoBi.INVARIX.resources
