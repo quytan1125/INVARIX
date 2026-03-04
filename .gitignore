@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Database/Database_INVARIX.sql
+/database.sql
+/Database/Database_INVARIX.sql
+/database.sql
+/database.sql
+/Database/Database_INVARIX.sql
