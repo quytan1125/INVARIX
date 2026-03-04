@@ -12,10 +12,10 @@ namespace INVARIX
 {
     public partial class frmDashboard : Form
     {
-        // 1. Khai báo một biến để lưu tên tài khoản đang đăng nhập
+        // Khai báo một biến để lưu tên tài khoản đang đăng nhập
         private string loggedInUsername;
 
-        // 2. Sửa lại hàm khởi tạo (thêm chữ 'string username' vào trong ngoặc)
+        // Sửa lại hàm khởi tạo (thêm chữ 'string username' vào trong ngoặc)
         public frmDashboard(string username)
         {
             InitializeComponent();
@@ -29,9 +29,13 @@ namespace INVARIX
 
         private void menuDoiMatKhau_Click(object sender, EventArgs e)
         {
-            // 3. Truyền biến loggedInUsername (tên thật) vào form Đổi Mật Khẩu
+            this.Hide(); 
+
             frmDoiMatKhau formDoiMK = new frmDoiMatKhau(loggedInUsername);
-            formDoiMK.ShowDialog();
+
+            formDoiMK.FormClosed += (s, args) => this.Show();
+
+            formDoiMK.Show(); 
         }
 
         private void menuDangXuat_Click(object sender, EventArgs e)
@@ -49,7 +53,7 @@ namespace INVARIX
             }
         }
 
-        // 4. Đoạn này tôi thêm vào để tắt hẳn phần mềm nếu bạn bấm dấu X tắt Dashboard
+        // Tắt hẳn phần mềm nếu bạn bấm dấu X tắt Dashboard
         private void frmDashboard_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
@@ -57,15 +61,13 @@ namespace INVARIX
 
         private void menuTinhGia_Click(object sender, EventArgs e)
         {
-            // Mở form Tính Giá
+            this.Hide(); 
+
             frmTinhGia formTinhGia = new frmTinhGia();
+            
+            formTinhGia.FormClosed += (s, args) => this.Show();
 
-            // Nếu bạn muốn form Tính Giá mở ra nằm bên trong Dashboard (dạng cửa sổ con MDI) 
-            // thì dùng lệnh sau (tạm thời ta cứ mở dạng form bình thường trước cho dễ nhé):
-            // formTinhGia.ShowDialog(); 
-
-            // Dùng Show() để mở form độc lập, người dùng có thể vừa xem Dashboard vừa xem Tính Giá
-            formTinhGia.Show();
+            formTinhGia.Show(); 
         }
     }
 }

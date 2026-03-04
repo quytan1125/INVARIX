@@ -56,7 +56,7 @@ namespace INVARIX
                 {
                     conn.Open();
                     // Sử dụng tham số (@user, @pass) để bảo mật, chống lỗi SQL Injection
-                    string query = "SELECT COUNT(1) FROM Users WHERE Username = @user AND PasswordHash = @pass";
+                    string query = "SELECT COUNT(1) FROM [users] WHERE email = @user AND password = @pass";
                     using (SqlCommand cmd = new SqlCommand(query, conn))
                     {
                         cmd.Parameters.AddWithValue("@user", username);

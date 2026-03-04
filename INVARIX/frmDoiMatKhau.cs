@@ -14,7 +14,7 @@ namespace INVARIX
 {
     public partial class frmDoiMatKhau : Form
     {
-        // Biến lưu tên tài khoản đang đăng nhập
+        // Biến lưu tên tài khoản (bây giờ là email) đang đăng nhập
         private string currentUsername;
 
         // Sửa lại hàm khởi tạo để nhận tên đăng nhập vào
@@ -51,15 +51,14 @@ namespace INVARIX
             }
 
             // 3. Kết nối CSDL để kiểm tra mật khẩu cũ và cập nhật
-            // ĐÃ CẬP NHẬT: Sử dụng chuỗi kết nối tập trung từ class CauHinhKetNoi
             using (SqlConnection conn = new SqlConnection(CauHinhKetNoi.ChuoiKetNoi))
             {
                 try
                 {
                     conn.Open();
 
-                    // Bước 3a: Kiểm tra mật khẩu cũ có đúng không
-                    string checkQuery = "SELECT COUNT(1) FROM Users WHERE Username = @user AND PasswordHash = @oldPass";
+                    // Bước 3a: Kiểm tra mật khẩu cũ có đúng không 
+                    string checkQuery = "SELECT COUNT(1) FROM [users] WHERE email = @user AND password = @oldPass";
                     using (SqlCommand cmdCheck = new SqlCommand(checkQuery, conn))
                     {
                         cmdCheck.Parameters.AddWithValue("@user", currentUsername);
@@ -74,7 +73,7 @@ namespace INVARIX
                     }
 
                     // Bước 3b: Nếu mật khẩu cũ đúng -> Cập nhật mật khẩu mới
-                    string updateQuery = "UPDATE Users SET PasswordHash = @newPass WHERE Username = @user";
+                    string updateQuery = "UPDATE [users] SET password = @newPass WHERE email = @user";
                     using (SqlCommand cmdUpdate = new SqlCommand(updateQuery, conn))
                     {
                         cmdUpdate.Parameters.AddWithValue("@newPass", newPass);

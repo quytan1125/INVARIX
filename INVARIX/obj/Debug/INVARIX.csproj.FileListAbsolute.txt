@@ -1,0 +1,15 @@
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.csproj.AssemblyReference.cache
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.Properties.Resources.resources
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.csproj.GenerateResource.cache
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.csproj.CoreCompileInputs.cache
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.Login.resources
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\bin\Debug\INVARIX.exe.config
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\bin\Debug\INVARIX.exe
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\bin\Debug\INVARIX.pdb
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.exe
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.pdb
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\bin\Debug\vi-VN\INVARIX.resources.dll
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.Login.vi-VN.resources
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\vi-VN\INVARIX.resources.dll
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.frmDashboard.resources
+C:\Users\Quy\Desktop\nhom5\INVARIX\INVARIX\obj\Debug\INVARIX.frmDoiMatKhau.resources
